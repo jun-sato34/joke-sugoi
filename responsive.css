@@ -1,0 +1,47 @@
+/* タブレット用css */
+@media (max-width: 1000px) {
+
+}
+
+
+/* スマートフォン用css */
+@media (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .main-wrapper h1 {
+    font-size: 25px;
+    text-align: left;
+  }
+
+  .main-wrapper p {
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .feature-wrapper h2 {
+    font-size: 20px;
+  }
+
+  .feature {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .feature img {
+    width: 60%;
+  }
+
+  .btn {
+    width: 80%;
+  }
+
+  .message-wrapper h2 {
+    font-size: 20px;
+  }
+}

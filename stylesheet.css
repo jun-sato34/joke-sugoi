@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(34,49,52,0.9);
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  padding: 20px 0px;
+  float: left;
+  font-size: 20px;
+}
+
+.header-right {
+  float: right;
+  padding-right: 20px;
+}
+
+.header-menu {
+  color: white;
+  float: left;
+  line-height: 65px;
+  display: block;
+  padding: 0px 25px;
+  transition: all 0.5s;
+}
+
+.header-menu:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.menu-icon {
+  float: right;
+  padding: 21px 0;
+  display: none;
+}
+
+.menu-icon span {
+  font-size: 25px;
+}
+
+.fa {
+  margin-right: 15px;
+}
+
+.main-wrapper {
+  background-image: url("img/sugoi-background.jpg");
+  background-size: cover;
+  padding-top: 150px;
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.main-wrapper h1 {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main-wrapper p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  margin-top: 70px;
+  background-color: #5dca88;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.signup:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.feature-wrapper {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.feature-wrapper h2 {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.features {
+  padding-top: 30px;
+}
+
+.feature {
+  width: calc(100% / 3);
+  float: left;
+
+}
+
+.feature img {
+  width: 80%;
+}
+
+.clear {
+  clear: left;
+}
+
+.feature p {
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  width: 80%;
+}
+
+.message-wrapper {
+  padding: 30px 0 70px 0;
+  text-align: center;
+}
+
+.message-wrapper h2 {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.register {
+  margin-top: 30px;
+  background-color: #239b76;
+  box-shadow: 0px 7px #1a7940;
+}
+
+.register:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  height: 65px;
+  background-color: rgba(34,49,52,1);
+  color: white;
+  width: 100%;
+}
+
+.footer-logo {
+  padding: 20px 0;
+  font-size: 14px;
+}
